@@ -35,7 +35,7 @@ components:
         - name: http-3001
           targetPort: 3001
           path: /
-          secure: true
+          secure: false
 commands:
   - id: build-image
     apply:
